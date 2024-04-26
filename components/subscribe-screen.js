@@ -73,16 +73,18 @@ const styles = StyleSheet.create({
     flex: 1,
     alignSelf: 'stretch',
     alignItems: 'center',
-    justifyContent: 'space-evenly'
+    justifyContent: 'top'
   },
   logo: {
     width: 100,
     height: 117,
-    resizeMode: 'contain'
+    resizeMode: 'contain',
+    marginTop: 20
   },
   title: {
     fontSize: 18,
-    textAlign: 'center'
+    textAlign: 'center',
+    marginTop: 20
   },
   input: {
     borderWidth: 1,
@@ -92,7 +94,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     fontSize: 18,
     padding: 5,
-    marginTop: 5,
-    marginBottom: 5
+    marginVertical: 20
   }
 })

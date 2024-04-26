@@ -28,15 +28,9 @@ export default function Button({
 
 const styles = StyleSheet.create({
   container: {
-    width: 160,
+    alignSelf: 'stretch',
     height: 42,
-    marginHorizontal: 8,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingTop: 5,
-    paddingRight: 10,
-    paddinBottom: 5,
-    paddingLeft: 10
+    paddingVertical: 5
   },
   button: {
     borderRadius: 10,
