@@ -31,7 +31,6 @@ export default function WelcomeScreen({ navigation, colorScheme }) {
       <Button
         onPress={() => navigation.navigate('Subscribe')}
         colorScheme={colorScheme}
-        disabled={false}
       >
         Newsletter
       </Button>
