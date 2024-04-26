@@ -18,7 +18,7 @@ export default function Footer({ colorScheme }) {
             : { color: '#E5F0A7' }
         ]}
       >
-        Made with care
+        The Little Lemon {new Date().getFullYear()}
       </Text>
     </View>
   )
